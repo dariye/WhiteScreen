@@ -1,0 +1,23 @@
+{
+  "name": "White Screen",
+  "description": "Helps keep focus when listening to podcasts or media with no visuals.",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "icons": {
+    "16": "icon-16.png",
+    "128": "icon-128.png"
+  },
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "permissions": [
+    "tabs",
+    "http://*/*",
+    "https://*/*"
+  ],
+  "browser_action": {
+    "default_icon": "icon-16.png",
+    "default_title": "Open White Screen"
+  }
+}
